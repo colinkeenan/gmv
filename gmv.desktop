@@ -2,7 +2,7 @@
 Name=Move or Rename
 Comment=Use the "mv" bash command on a file or folder
 GenericName=gmv: GUI for 'mv'
-Exec=/usr/local/bin/gmv %U
+Exec=/usr/bin/gmv %U
 Icon=file-manager
 Terminal=false
 StartupNotify=true
