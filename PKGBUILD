@@ -15,6 +15,8 @@ md5sums=('7e639e2ae25f0953299fd993fff8e13b'
          '5cb898b8e25e883a8a7cb55f84720d5f')
 
 package() {
+  install -d -m755 "$pkgdir/usr/bin"
+  install -d -m755 "$pkgdir/usr/share/applications"
   install -m755 gmv.desktop "$pkgdir/usr/share/applications"
   install -m755 gmv "$pkgdir/usr/bin/gmv"
 }
