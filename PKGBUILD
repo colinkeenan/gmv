@@ -2,7 +2,7 @@
 
 pkgname=gmv
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="GUI for 'mv': Adds 'Move or Rename' to 'open-with' context menu for most files."
 arch=('any')
 url="https://github.com/colinkeenan/gmv"
@@ -12,7 +12,7 @@ install=${pkgname}.install
 
 source=('gmv' 'gmv.desktop')
 md5sums=('7e639e2ae25f0953299fd993fff8e13b'
-         '5cb898b8e25e883a8a7cb55f84720d5f')
+         'a36aea533c86a72e2eec2b7247b31f0e')
 
 package() {
   install -d -m755 "$pkgdir/usr/bin"
