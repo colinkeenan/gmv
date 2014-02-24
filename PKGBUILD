@@ -2,7 +2,7 @@
 
 pkgname=gmv
 pkgver=1.0
-pkgrel=2
+pkgrel=3
 pkgdesc="GUI for 'mv': Adds 'Move or Rename' to 'open-with' context menu for most files."
 arch=('any')
 url="https://github.com/colinkeenan/gmv"
