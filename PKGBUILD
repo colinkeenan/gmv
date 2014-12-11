@@ -16,6 +16,6 @@ md5sums=('7e639e2ae25f0953299fd993fff8e13b'
          'a36aea533c86a72e2eec2b7247b31f0e')
 
 package() {
-  install -D -m644 gmv.desktop "$pkgdir/usr/share/applications"
+  install -D -m644 gmv.desktop "$pkgdir/usr/share/applications/gmv.desktop"
   install -D -m755 gmv "$pkgdir/usr/bin/gmv"
 }
